@@ -1,0 +1,1436 @@
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ date
+Mon Aug  6 11:11:25 IST 2018
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ date +%a
+Mon
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ date +%A
+Monday
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ date +%b
+Aug
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ date +%c
+Monday 06 August 2018 11:11:59 AM IST
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ date +%d
+06
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ date +%H-%M-%S
+11-12-25
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ cal
+    August 2018       
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+                 
+                      
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ cal 2018
+                            2018
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3               1  2  3  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   4  5  6  7  8  9 10  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  11 12 13 14 15 16 17  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  18 19 20 21 22 23 24  
+28 29 30 31           25 26 27 28           25 26 27 28 29 30 31  
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7         1  2  3  4  5                  1  2  
+ 8  9 10 11 12 13 14   6  7  8  9 10 11 12   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  13 14 15 16 17 18 19  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  20 21 22 23 24 25 26  17 18 19 20 21 22 23  
+29 30                 27 28 29 30 31        24 25 26 27 28 29 30  
+                                                                  
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4                     1  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   2  3  4  5  6  7  8  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18   9 10 11 12 13 14 15  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  16 17 18 19 20 21 22  
+29 30 31              26 27 28 29 30 31     23 24 25 26 27 28 29  
+                                            30                    
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3                     1  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   2  3  4  5  6  7  8  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17   9 10 11 12 13 14 15  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  16 17 18 19 20 21 22  
+28 29 30 31           25 26 27 28 29 30     23 24 25 26 27 28 29  
+                                            30 31        
+                                            
+                                                     
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ cal 08 2018
+    August 2018       
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+                      
+                      
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ echo "161210033"
+161210033
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ banner "161210033"
+   #     #####     #     #####     #      ###     ###    #####   #####
+  ##    #     #   ##    #     #   ##     #   #   #   #  #     # #     #
+ # #    #        # #          #  # #    # #   # # #   #       #       #
+   #    ######     #     #####     #    #  #  # #  #  #  #####   #####
+   #    #     #    #    #          #    #   # # #   # #       #       #
+   #    #     #    #    #          #     #   #   #   #  #     # #     #
+ #####   #####   #####  #######  #####    ###     ###    #####   #####
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ whoami
+nitdpc16
+
+
+nitdpc16@nitdpc16-desktop:~$ man
+What manual page do you want?
+
+
+nitdpc16@nitdpc16-desktop:~$ man banner
+
+
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                list.py                        pipe.c                     server.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      lol.c                          pks.c                      SIGALRM.c
+a                              client.c                              heap1.cpp              lol.cpp                        prime.cpp                  sink-examp.txt
+aaa.c                          clientudp.c                           heap.cpp               lundle2.asm                    pro1.asm                   snr.cpp
+aaa.tcl                        cn.c                                  hello.txt              lundle2.txt                    pro2.asm                   square.cpp
+aaa.txt                        code                                  histogram.png          MF.py                          PROGRAMS                   sr.c
+aa.cpp                         CoIDE-V2Beta-20170510.exe             i                      MFtrimf.py                     projects                   star.tcl
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           import numpy as np.py  mipsassemblytutorial.pdf       Public                     SVM.png
+aayu.c                         colab1.1                              in                     ML_Lab.docx                    PycharmProjects            svm.py
+aayuc.c                        complex.cpp                           inh.cpp                Music                          q1.cpp                     tanuj1.s
+aayuudp.c                      Composition.py                        inhe.cpp               mwf_config                     q1lab8.cpp                 tcp_concurrent_zombie.c
+aayuudpc.c                     conv.cpp                              IRIS.csv               nam_1.14_amd64.deb             q2lab8.cpp                 Templates
+abcd.asm                       crc.c                                 kmeans.py              nam_1.14_amd64.zip             q4.cpp                     test.c
+abc.txt                        crc.cpp                               kmeans.R               nam_1.14_amd64.zip.1           q6.cpp                     test.cpp
+alarm_read.c                   crcques1.cpp                          knn1.py                namtrace.nam                   qsn1.txt                   test.html
+android                        cross.py                              knn.py                 navcn                          qtspim_9.1.19_linux64.deb  tsp1.cpp
+Ankit.r                        dat.cpp                               KNN.R                  Networks_Pipes_assignment.pdf  quad.txt                   tsp.cpp
+a.out                          date.cpp                              k.tcl                  new.c                          ques1.c                    tt.cpp
+apriori_result.txt             depthfirst.cpp                        kumar12111.c           New folder                     ques1.cpp                  tttt.cpp
+ARK                            Desktop                               kumar1211.c            newton_backward.cpp            questions                  udp_client.c
+arprarp.c                      distancevector.cpp                    kumar121.c             newton.cpp                     R                          Untitled1.ipynb
+avl.cpp                        Documents                             kumar12.c              ns-allinone-2.35               rarp1.cpp                  Untitled 1.odt
+avlpkk.cpp                     Downloads                             kumar1.c               ns-allinone-2.35.tar.gz        rarp.cpp                   Untitled Document
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar2.c               num.c                          rec.c                      Untitled Document 1
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar3.c               nym.c                          reciever.c                 Untitled Document 2
+b                              dv.c                                  kumar4.c               nymika1                        repos                      Untitled Document 3
+barchart.png                   dv.cpp                                kumar5.c               nymika.c                       result.dat                 Untitled Folder
+bbb.tcl                        fib.asm                               kumar.c                oishika.cpp                    ring.tcl                   Untitled Folder 2
+b.c                            fibs.asm                              kumare.c               OOPS LAB EXAM                  root-p                     Untitled Folder 3
+b.cpp                          first.R                               lab91.cpp              OOPS LAB EXAM.zip              rps                        Untitled Folder 4
+bi.cpp                         FirstRepo                             lab9.cpp               OpFuzzy.py                     rps.cpp                    Untitled Folder 5
+bin                            friend_class.cpp                      lab9q1.cpp             out                            s                          Untitled.ipynb
+bit_stuffing.c                 fuzzyOp.py                            lab9q2.cpp             out.nam                        s1.asm                     verifying_received_response.c
+boxplot.png                    FuzzyOp.py                            lab.cpp                out.tr                         s.asm                      verifying_received_response_ser.c
+c                              Fuzzy.py                              labPalindrome.txt      p1b.c                          selrej.c                   Videos
+c1                             fuzzy_set.py                          leftrec1.c             p1.l                           send.c
+c2                             FuzzySet.py                           lex1.txt               p4.tcl                         sender.c
+ccc.tcl                        GenMF.py                              lex.yy.c               Pictures                       server1.c
+client1.c                      GENMF.py                              link.cpp               piechart.png                   server2.c
+
+
+nitdpc16@nitdpc16-desktop:~$ ls -l Desktop
+total 48
+drwxrwxr-x 11 nitdpc16 nitdpc16  4096 May 17 14:24 all desktop files
+-rwxrwxr-x  1 nitdpc16 nitdpc16 13568 May 18 12:18 a.out
+-rw-r--r--  1 nitdpc16 nitdpc16  1623 May 18 16:52 bacward.cpp
+-rw-rw-r--  1 nitdpc16 nitdpc16   297 May 18 15:21 newton_raph.cpp
+-rw-rw-r--  1 nitdpc16 nitdpc16   533 May 18 12:16 q2.cpp
+-rw-rw-r--  1 nitdpc16 nitdpc16   543 May 18 12:17 q5.cpp
+-rw-rw-r--  1 nitdpc16 nitdpc16   634 May 16 12:01 rarp.c
+-rw-rw-r--  1 nitdpc16 nitdpc16   233 May 18 11:46 test.cpp
+-rw-rw-r--  1 nitdpc16 nitdpc16  1328 May 17 14:25 tsp1.cpp
+
+
+nitdpc16@nitdpc16-desktop:~$ ls -l a
+-rwxrwxr-x 1 nitdpc16 nitdpc16 9120 Apr  4 15:30 a
+
+
+nitdpc16@nitdpc16-desktop:~$ ls -l p
+ls: cannot access 'p': No such file or directory
+
+
+nitdpc16@nitdpc16-desktop:~$ ls -l f
+ls: cannot access 'f': No such file or directory
+
+
+nitdpc16@nitdpc16-desktop:~$ pwd
+/home/nitdpc16
+
+
+nitdpc16@nitdpc16-desktop:~$ mkdir prakash
+
+
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                list.py                        pipe.c                     server2.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      lol.c                          pks.c                      server.c
+a                              client.c                              heap1.cpp              lol.cpp                        prakash                    SIGALRM.c
+aaa.c                          clientudp.c                           heap.cpp               lundle2.asm                    prime.cpp                  sink-examp.txt
+aaa.tcl                        cn.c                                  hello.txt              lundle2.txt                    pro1.asm                   snr.cpp
+aaa.txt                        code                                  histogram.png          MF.py                          pro2.asm                   square.cpp
+aa.cpp                         CoIDE-V2Beta-20170510.exe             i                      MFtrimf.py                     PROGRAMS                   sr.c
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           import numpy as np.py  mipsassemblytutorial.pdf       projects                   star.tcl
+aayu.c                         colab1.1                              in                     ML_Lab.docx                    Public                     SVM.png
+aayuc.c                        complex.cpp                           inh.cpp                Music                          PycharmProjects            svm.py
+aayuudp.c                      Composition.py                        inhe.cpp               mwf_config                     q1.cpp                     tanuj1.s
+aayuudpc.c                     conv.cpp                              IRIS.csv               nam_1.14_amd64.deb             q1lab8.cpp                 tcp_concurrent_zombie.c
+abcd.asm                       crc.c                                 kmeans.py              nam_1.14_amd64.zip             q2lab8.cpp                 Templates
+abc.txt                        crc.cpp                               kmeans.R               nam_1.14_amd64.zip.1           q4.cpp                     test.c
+alarm_read.c                   crcques1.cpp                          knn1.py                namtrace.nam                   q6.cpp                     test.cpp
+android                        cross.py                              knn.py                 navcn                          qsn1.txt                   test.html
+Ankit.r                        dat.cpp                               KNN.R                  Networks_Pipes_assignment.pdf  qtspim_9.1.19_linux64.deb  tsp1.cpp
+a.out                          date.cpp                              k.tcl                  new.c                          quad.txt                   tsp.cpp
+apriori_result.txt             depthfirst.cpp                        kumar12111.c           New folder                     ques1.c                    tt.cpp
+ARK                            Desktop                               kumar1211.c            newton_backward.cpp            ques1.cpp                  tttt.cpp
+arprarp.c                      distancevector.cpp                    kumar121.c             newton.cpp                     questions                  udp_client.c
+avl.cpp                        Documents                             kumar12.c              ns-allinone-2.35               R                          Untitled1.ipynb
+avlpkk.cpp                     Downloads                             kumar1.c               ns-allinone-2.35.tar.gz        rarp1.cpp                  Untitled 1.odt
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar2.c               num.c                          rarp.cpp                   Untitled Document
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar3.c               nym.c                          rec.c                      Untitled Document 1
+b                              dv.c                                  kumar4.c               nymika1                        reciever.c                 Untitled Document 2
+barchart.png                   dv.cpp                                kumar5.c               nymika.c                       repos                      Untitled Document 3
+bbb.tcl                        fib.asm                               kumar.c                oishika.cpp                    result.dat                 Untitled Folder
+b.c                            fibs.asm                              kumare.c               OOPS LAB EXAM                  ring.tcl                   Untitled Folder 2
+b.cpp                          first.R                               lab91.cpp              OOPS LAB EXAM.zip              root-p                     Untitled Folder 3
+bi.cpp                         FirstRepo                             lab9.cpp               OpFuzzy.py                     rps                        Untitled Folder 4
+bin                            friend_class.cpp                      lab9q1.cpp             out                            rps.cpp                    Untitled Folder 5
+bit_stuffing.c                 fuzzyOp.py                            lab9q2.cpp             out.nam                        s                          Untitled.ipynb
+boxplot.png                    FuzzyOp.py                            lab.cpp                out.tr                         s1.asm                     verifying_received_response.c
+c                              Fuzzy.py                              labPalindrome.txt      p1b.c                          s.asm                      verifying_received_response_ser.c
+c1                             fuzzy_set.py                          leftrec1.c             p1.l                           selrej.c                   Videos
+c2                             FuzzySet.py                           lex1.txt               p4.tcl                         send.c
+ccc.tcl                        GenMF.py                              lex.yy.c               Pictures                       sender.c
+client1.c                      GENMF.py                              link.cpp               piechart.png                   server1.c
+
+
+nitdpc16@nitdpc16-desktop:~$ rm piechart.png 
+
+
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                list.py                        pks.c                      server.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      lol.c                          prakash                    SIGALRM.c
+a                              client.c                              heap1.cpp              lol.cpp                        prime.cpp                  sink-examp.txt
+aaa.c                          clientudp.c                           heap.cpp               lundle2.asm                    pro1.asm                   snr.cpp
+aaa.tcl                        cn.c                                  hello.txt              lundle2.txt                    pro2.asm                   square.cpp
+aaa.txt                        code                                  histogram.png          MF.py                          PROGRAMS                   sr.c
+aa.cpp                         CoIDE-V2Beta-20170510.exe             i                      MFtrimf.py                     projects                   star.tcl
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           import numpy as np.py  mipsassemblytutorial.pdf       Public                     SVM.png
+aayu.c                         colab1.1                              in                     ML_Lab.docx                    PycharmProjects            svm.py
+aayuc.c                        complex.cpp                           inh.cpp                Music                          q1.cpp                     tanuj1.s
+aayuudp.c                      Composition.py                        inhe.cpp               mwf_config                     q1lab8.cpp                 tcp_concurrent_zombie.c
+aayuudpc.c                     conv.cpp                              IRIS.csv               nam_1.14_amd64.deb             q2lab8.cpp                 Templates
+abcd.asm                       crc.c                                 kmeans.py              nam_1.14_amd64.zip             q4.cpp                     test.c
+abc.txt                        crc.cpp                               kmeans.R               nam_1.14_amd64.zip.1           q6.cpp                     test.cpp
+alarm_read.c                   crcques1.cpp                          knn1.py                namtrace.nam                   qsn1.txt                   test.html
+android                        cross.py                              knn.py                 navcn                          qtspim_9.1.19_linux64.deb  tsp1.cpp
+Ankit.r                        dat.cpp                               KNN.R                  Networks_Pipes_assignment.pdf  quad.txt                   tsp.cpp
+a.out                          date.cpp                              k.tcl                  new.c                          ques1.c                    tt.cpp
+apriori_result.txt             depthfirst.cpp                        kumar12111.c           New folder                     ques1.cpp                  tttt.cpp
+ARK                            Desktop                               kumar1211.c            newton_backward.cpp            questions                  udp_client.c
+arprarp.c                      distancevector.cpp                    kumar121.c             newton.cpp                     R                          Untitled1.ipynb
+avl.cpp                        Documents                             kumar12.c              ns-allinone-2.35               rarp1.cpp                  Untitled 1.odt
+avlpkk.cpp                     Downloads                             kumar1.c               ns-allinone-2.35.tar.gz        rarp.cpp                   Untitled Document
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar2.c               num.c                          rec.c                      Untitled Document 1
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar3.c               nym.c                          reciever.c                 Untitled Document 2
+b                              dv.c                                  kumar4.c               nymika1                        repos                      Untitled Document 3
+barchart.png                   dv.cpp                                kumar5.c               nymika.c                       result.dat                 Untitled Folder
+bbb.tcl                        fib.asm                               kumar.c                oishika.cpp                    ring.tcl                   Untitled Folder 2
+b.c                            fibs.asm                              kumare.c               OOPS LAB EXAM                  root-p                     Untitled Folder 3
+b.cpp                          first.R                               lab91.cpp              OOPS LAB EXAM.zip              rps                        Untitled Folder 4
+bi.cpp                         FirstRepo                             lab9.cpp               OpFuzzy.py                     rps.cpp                    Untitled Folder 5
+bin                            friend_class.cpp                      lab9q1.cpp             out                            s                          Untitled.ipynb
+bit_stuffing.c                 fuzzyOp.py                            lab9q2.cpp             out.nam                        s1.asm                     verifying_received_response.c
+boxplot.png                    FuzzyOp.py                            lab.cpp                out.tr                         s.asm                      verifying_received_response_ser.c
+c                              Fuzzy.py                              labPalindrome.txt      p1b.c                          selrej.c                   Videos
+c1                             fuzzy_set.py                          leftrec1.c             p1.l                           send.c
+c2                             FuzzySet.py                           lex1.txt               p4.tcl                         sender.c
+ccc.tcl                        GenMF.py                              lex.yy.c               Pictures                       server1.c
+client1.c                      GENMF.py                              link.cpp               pipe.c                         server2.c
+
+
+nitdpc16@nitdpc16-desktop:~$ cat >prakash1
+"Hello"
+^C
+
+
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                list.py                        pks.c                      server2.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      lol.c                          prakash                    server.c
+a                              client.c                              heap1.cpp              lol.cpp                        prakash1                   SIGALRM.c
+aaa.c                          clientudp.c                           heap.cpp               lundle2.asm                    prime.cpp                  sink-examp.txt
+aaa.tcl                        cn.c                                  hello.txt              lundle2.txt                    pro1.asm                   snr.cpp
+aaa.txt                        code                                  histogram.png          MF.py                          pro2.asm                   square.cpp
+aa.cpp                         CoIDE-V2Beta-20170510.exe             i                      MFtrimf.py                     PROGRAMS                   sr.c
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           import numpy as np.py  mipsassemblytutorial.pdf       projects                   star.tcl
+aayu.c                         colab1.1                              in                     ML_Lab.docx                    Public                     SVM.png
+aayuc.c                        complex.cpp                           inh.cpp                Music                          PycharmProjects            svm.py
+aayuudp.c                      Composition.py                        inhe.cpp               mwf_config                     q1.cpp                     tanuj1.s
+aayuudpc.c                     conv.cpp                              IRIS.csv               nam_1.14_amd64.deb             q1lab8.cpp                 tcp_concurrent_zombie.c
+abcd.asm                       crc.c                                 kmeans.py              nam_1.14_amd64.zip             q2lab8.cpp                 Templates
+abc.txt                        crc.cpp                               kmeans.R               nam_1.14_amd64.zip.1           q4.cpp                     test.c
+alarm_read.c                   crcques1.cpp                          knn1.py                namtrace.nam                   q6.cpp                     test.cpp
+android                        cross.py                              knn.py                 navcn                          qsn1.txt                   test.html
+Ankit.r                        dat.cpp                               KNN.R                  Networks_Pipes_assignment.pdf  qtspim_9.1.19_linux64.deb  tsp1.cpp
+a.out                          date.cpp                              k.tcl                  new.c                          quad.txt                   tsp.cpp
+apriori_result.txt             depthfirst.cpp                        kumar12111.c           New folder                     ques1.c                    tt.cpp
+ARK                            Desktop                               kumar1211.c            newton_backward.cpp            ques1.cpp                  tttt.cpp
+arprarp.c                      distancevector.cpp                    kumar121.c             newton.cpp                     questions                  udp_client.c
+avl.cpp                        Documents                             kumar12.c              ns-allinone-2.35               R                          Untitled1.ipynb
+avlpkk.cpp                     Downloads                             kumar1.c               ns-allinone-2.35.tar.gz        rarp1.cpp                  Untitled 1.odt
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar2.c               num.c                          rarp.cpp                   Untitled Document
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar3.c               nym.c                          rec.c                      Untitled Document 1
+b                              dv.c                                  kumar4.c               nymika1                        reciever.c                 Untitled Document 2
+barchart.png                   dv.cpp                                kumar5.c               nymika.c                       repos                      Untitled Document 3
+bbb.tcl                        fib.asm                               kumar.c                oishika.cpp                    result.dat                 Untitled Folder
+b.c                            fibs.asm                              kumare.c               OOPS LAB EXAM                  ring.tcl                   Untitled Folder 2
+b.cpp                          first.R                               lab91.cpp              OOPS LAB EXAM.zip              root-p                     Untitled Folder 3
+bi.cpp                         FirstRepo                             lab9.cpp               OpFuzzy.py                     rps                        Untitled Folder 4
+bin                            friend_class.cpp                      lab9q1.cpp             out                            rps.cpp                    Untitled Folder 5
+bit_stuffing.c                 fuzzyOp.py                            lab9q2.cpp             out.nam                        s                          Untitled.ipynb
+boxplot.png                    FuzzyOp.py                            lab.cpp                out.tr                         s1.asm                     verifying_received_response.c
+c                              Fuzzy.py                              labPalindrome.txt      p1b.c                          s.asm                      verifying_received_response_ser.c
+c1                             fuzzy_set.py                          leftrec1.c             p1.l                           selrej.c                   Videos
+c2                             FuzzySet.py                           lex1.txt               p4.tcl                         send.c
+ccc.tcl                        GenMF.py                              lex.yy.c               Pictures                       sender.c
+client1.c                      GENMF.py                              link.cpp               pipe.c                         server1.c
+
+
+nitdpc16@nitdpc16-desktop:~$ cat <prakash1
+"Hello"
+
+
+nitdpc16@nitdpc16-desktop:~$ cat -n <prakash1
+     1	"Hello"
+     
+     
+nitdpc16@nitdpc16-desktop:~$ cat pipe.c >> prakash1
+
+
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                list.py                        pks.c                      server2.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      lol.c                          prakash                    server.c
+a                              client.c                              heap1.cpp              lol.cpp                        prakash1                   SIGALRM.c
+aaa.c                          clientudp.c                           heap.cpp               lundle2.asm                    prime.cpp                  sink-examp.txt
+aaa.tcl                        cn.c                                  hello.txt              lundle2.txt                    pro1.asm                   snr.cpp
+aaa.txt                        code                                  histogram.png          MF.py                          pro2.asm                   square.cpp
+aa.cpp                         CoIDE-V2Beta-20170510.exe             i                      MFtrimf.py                     PROGRAMS                   sr.c
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           import numpy as np.py  mipsassemblytutorial.pdf       projects                   star.tcl
+aayu.c                         colab1.1                              in                     ML_Lab.docx                    Public                     SVM.png
+aayuc.c                        complex.cpp                           inh.cpp                Music                          PycharmProjects            svm.py
+aayuudp.c                      Composition.py                        inhe.cpp               mwf_config                     q1.cpp                     tanuj1.s
+aayuudpc.c                     conv.cpp                              IRIS.csv               nam_1.14_amd64.deb             q1lab8.cpp                 tcp_concurrent_zombie.c
+abcd.asm                       crc.c                                 kmeans.py              nam_1.14_amd64.zip             q2lab8.cpp                 Templates
+abc.txt                        crc.cpp                               kmeans.R               nam_1.14_amd64.zip.1           q4.cpp                     test.c
+alarm_read.c                   crcques1.cpp                          knn1.py                namtrace.nam                   q6.cpp                     test.cpp
+android                        cross.py                              knn.py                 navcn                          qsn1.txt                   test.html
+Ankit.r                        dat.cpp                               KNN.R                  Networks_Pipes_assignment.pdf  qtspim_9.1.19_linux64.deb  tsp1.cpp
+a.out                          date.cpp                              k.tcl                  new.c                          quad.txt                   tsp.cpp
+apriori_result.txt             depthfirst.cpp                        kumar12111.c           New folder                     ques1.c                    tt.cpp
+ARK                            Desktop                               kumar1211.c            newton_backward.cpp            ques1.cpp                  tttt.cpp
+arprarp.c                      distancevector.cpp                    kumar121.c             newton.cpp                     questions                  udp_client.c
+avl.cpp                        Documents                             kumar12.c              ns-allinone-2.35               R                          Untitled1.ipynb
+avlpkk.cpp                     Downloads                             kumar1.c               ns-allinone-2.35.tar.gz        rarp1.cpp                  Untitled 1.odt
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar2.c               num.c                          rarp.cpp                   Untitled Document
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar3.c               nym.c                          rec.c                      Untitled Document 1
+b                              dv.c                                  kumar4.c               nymika1                        reciever.c                 Untitled Document 2
+barchart.png                   dv.cpp                                kumar5.c               nymika.c                       repos                      Untitled Document 3
+bbb.tcl                        fib.asm                               kumar.c                oishika.cpp                    result.dat                 Untitled Folder
+b.c                            fibs.asm                              kumare.c               OOPS LAB EXAM                  ring.tcl                   Untitled Folder 2
+b.cpp                          first.R                               lab91.cpp              OOPS LAB EXAM.zip              root-p                     Untitled Folder 3
+bi.cpp                         FirstRepo                             lab9.cpp               OpFuzzy.py                     rps                        Untitled Folder 4
+bin                            friend_class.cpp                      lab9q1.cpp             out                            rps.cpp                    Untitled Folder 5
+bit_stuffing.c                 fuzzyOp.py                            lab9q2.cpp             out.nam                        s                          Untitled.ipynb
+boxplot.png                    FuzzyOp.py                            lab.cpp                out.tr                         s1.asm                     verifying_received_response.c
+c                              Fuzzy.py                              labPalindrome.txt      p1b.c                          s.asm                      verifying_received_response_ser.c
+c1                             fuzzy_set.py                          leftrec1.c             p1.l                           selrej.c                   Videos
+c2                             FuzzySet.py                           lex1.txt               p4.tcl                         send.c
+ccc.tcl                        GenMF.py                              lex.yy.c               Pictures                       sender.c
+client1.c                      GENMF.py                              link.cpp               pipe.c                         server1.c
+
+
+nitdpc16@nitdpc16-desktop:~$ cat -n <prakash1
+     1	"Hello"
+     2	#include <stdio.h>
+     3	#include <stdlib.h>
+     4	#include <unistd.h>
+     5	#include <string.h>
+     6	 
+     7	void client(int readfd, int writefd)
+     8	{
+     9	        char msg[100];
+    10	        int n;
+    11	        char eof = EOF;
+    12	        printf("%d enter msg to be sent to server: ", getpid());
+    13	        fgets(msg, 100, stdin);
+    14	        if (write(writefd, msg, strlen(msg) - 1) == -1){
+    15	                perror("error writing...");
+    16	                exit(0);
+    17	        }
+    18	        if ((n = read(readfd, msg, 100)) < 0) {
+    19	                perror("error reading...");
+    20	                exit(0);
+    21	        }
+    22	        msg[n] = ' ';
+    23	        printf("received from server: %s\n", msg);
+    24	}
+    25	 
+    26	void server(int readfd, int writefd)
+    27	{
+    28	        char msg[100];
+    29	        int n;
+    30	        if ((n = read(readfd, msg, 100)) < 0) {
+    31	                perror("error reading...");
+    32	        }
+    33	        msg[n] = ' ';
+    34	        printf("%d server received from client: %s\n", getpid(), msg);
+    35	        printf("enter msg to be sent to client: ");
+    36	        fgets(msg, 100, stdin);
+    37	        write(writefd, msg, strlen(msg) - 1);
+    38	}
+    39	 
+    40	int main()
+    41	{
+    42	        int pipe1fd[2], pipe2fd[2];
+    43	        int pid;
+    44	 
+    45	   
+    46	        if (pipe(pipe1fd) == -1) {
+    47	                perror("pipe:");
+    48	                return 0;
+    49	        }
+    50	        if (pipe(pipe2fd) == -1) {
+    51	                perror("pipe:");
+    52	                return 0;
+    53	        }
+    54	
+    55	        pid = fork();
+    56	        if (pid == 0) {
+    57	                close(pipe1fd[1]);    
+    58	                close(pipe2fd[0]);     
+    59	                client(pipe1fd[0], pipe2fd[1]);
+    60	                exit(0);
+    61	        }
+    62	        else {
+    63	                
+    64	                close(pipe1fd[0]); 
+    65	                close(pipe2fd[1]); 
+    66	                server(pipe2fd[0], pipe1fd[1]);
+    67	                wait(NULL);     
+    68	                return 0;
+    69	        }
+    70	}
+    71	
+    
+    
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                list.py                        pks.c                      server2.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      lol.c                          prakash                    server.c
+a                              client.c                              heap1.cpp              lol.cpp                        prakash1                   SIGALRM.c
+aaa.c                          clientudp.c                           heap.cpp               lundle2.asm                    prime.cpp                  sink-examp.txt
+aaa.tcl                        cn.c                                  hello.txt              lundle2.txt                    pro1.asm                   snr.cpp
+aaa.txt                        code                                  histogram.png          MF.py                          pro2.asm                   square.cpp
+aa.cpp                         CoIDE-V2Beta-20170510.exe             i                      MFtrimf.py                     PROGRAMS                   sr.c
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           import numpy as np.py  mipsassemblytutorial.pdf       projects                   star.tcl
+aayu.c                         colab1.1                              in                     ML_Lab.docx                    Public                     SVM.png
+aayuc.c                        complex.cpp                           inh.cpp                Music                          PycharmProjects            svm.py
+aayuudp.c                      Composition.py                        inhe.cpp               mwf_config                     q1.cpp                     tanuj1.s
+aayuudpc.c                     conv.cpp                              IRIS.csv               nam_1.14_amd64.deb             q1lab8.cpp                 tcp_concurrent_zombie.c
+abcd.asm                       crc.c                                 kmeans.py              nam_1.14_amd64.zip             q2lab8.cpp                 Templates
+abc.txt                        crc.cpp                               kmeans.R               nam_1.14_amd64.zip.1           q4.cpp                     test.c
+alarm_read.c                   crcques1.cpp                          knn1.py                namtrace.nam                   q6.cpp                     test.cpp
+android                        cross.py                              knn.py                 navcn                          qsn1.txt                   test.html
+Ankit.r                        dat.cpp                               KNN.R                  Networks_Pipes_assignment.pdf  qtspim_9.1.19_linux64.deb  tsp1.cpp
+a.out                          date.cpp                              k.tcl                  new.c                          quad.txt                   tsp.cpp
+apriori_result.txt             depthfirst.cpp                        kumar12111.c           New folder                     ques1.c                    tt.cpp
+ARK                            Desktop                               kumar1211.c            newton_backward.cpp            ques1.cpp                  tttt.cpp
+arprarp.c                      distancevector.cpp                    kumar121.c             newton.cpp                     questions                  udp_client.c
+avl.cpp                        Documents                             kumar12.c              ns-allinone-2.35               R                          Untitled1.ipynb
+avlpkk.cpp                     Downloads                             kumar1.c               ns-allinone-2.35.tar.gz        rarp1.cpp                  Untitled 1.odt
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar2.c               num.c                          rarp.cpp                   Untitled Document
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar3.c               nym.c                          rec.c                      Untitled Document 1
+b                              dv.c                                  kumar4.c               nymika1                        reciever.c                 Untitled Document 2
+barchart.png                   dv.cpp                                kumar5.c               nymika.c                       repos                      Untitled Document 3
+bbb.tcl                        fib.asm                               kumar.c                oishika.cpp                    result.dat                 Untitled Folder
+b.c                            fibs.asm                              kumare.c               OOPS LAB EXAM                  ring.tcl                   Untitled Folder 2
+b.cpp                          first.R                               lab91.cpp              OOPS LAB EXAM.zip              root-p                     Untitled Folder 3
+bi.cpp                         FirstRepo                             lab9.cpp               OpFuzzy.py                     rps                        Untitled Folder 4
+bin                            friend_class.cpp                      lab9q1.cpp             out                            rps.cpp                    Untitled Folder 5
+bit_stuffing.c                 fuzzyOp.py                            lab9q2.cpp             out.nam                        s                          Untitled.ipynb
+boxplot.png                    FuzzyOp.py                            lab.cpp                out.tr                         s1.asm                     verifying_received_response.c
+c                              Fuzzy.py                              labPalindrome.txt      p1b.c                          s.asm                      verifying_received_response_ser.c
+c1                             fuzzy_set.py                          leftrec1.c             p1.l                           selrej.c                   Videos
+c2                             FuzzySet.py                           lex1.txt               p4.tcl                         send.c
+ccc.tcl                        GenMF.py                              lex.yy.c               Pictures                       sender.c
+client1.c                      GENMF.py                              link.cpp               pipe.c                         server1.c
+
+
+nitdpc16@nitdpc16-desktop:~$ sort prakash1
+
+
+ 
+ 
+ 
+ 
+   
+                
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+{
+{
+{
+}
+}
+}
+        char eof = EOF;
+        char msg[100];
+        char msg[100];
+                client(pipe1fd[0], pipe2fd[1]);
+                close(pipe1fd[0]); 
+                close(pipe1fd[1]);    
+                close(pipe2fd[0]);     
+                close(pipe2fd[1]); 
+        else {
+                exit(0);
+                exit(0);
+                exit(0);
+        fgets(msg, 100, stdin);
+        fgets(msg, 100, stdin);
+"Hello"
+        if ((n = read(readfd, msg, 100)) < 0) {
+        if ((n = read(readfd, msg, 100)) < 0) {
+        if (pid == 0) {
+        if (pipe(pipe1fd) == -1) {
+        if (pipe(pipe2fd) == -1) {
+        if (write(writefd, msg, strlen(msg) - 1) == -1){
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+int main()
+        int n;
+        int n;
+        int pid;
+        int pipe1fd[2], pipe2fd[2];
+        msg[n] = ' ';
+        msg[n] = ' ';
+                perror("error reading...");
+                perror("error reading...");
+                perror("error writing...");
+                perror("pipe:");
+                perror("pipe:");
+        pid = fork();
+        printf("%d enter msg to be sent to server: ", getpid());
+        printf("%d server received from client: %s\n", getpid(), msg);
+        printf("enter msg to be sent to client: ");
+        printf("received from server: %s\n", msg);
+                return 0;
+                return 0;
+                return 0;
+                server(pipe2fd[0], pipe1fd[1]);
+void client(int readfd, int writefd)
+void server(int readfd, int writefd)
+                wait(NULL);     
+        write(writefd, msg, strlen(msg) - 1);
+nitdpc16@nitdpc16-desktop:~$ sort -r  prakash1
+        write(writefd, msg, strlen(msg) - 1);
+                wait(NULL);     
+void server(int readfd, int writefd)
+void client(int readfd, int writefd)
+                server(pipe2fd[0], pipe1fd[1]);
+                return 0;
+                return 0;
+                return 0;
+        printf("received from server: %s\n", msg);
+        printf("enter msg to be sent to client: ");
+        printf("%d server received from client: %s\n", getpid(), msg);
+        printf("%d enter msg to be sent to server: ", getpid());
+        pid = fork();
+                perror("pipe:");
+                perror("pipe:");
+                perror("error writing...");
+                perror("error reading...");
+                perror("error reading...");
+        msg[n] = ' ';
+        msg[n] = ' ';
+        int pipe1fd[2], pipe2fd[2];
+        int pid;
+        int n;
+        int n;
+int main()
+#include <unistd.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+        if (write(writefd, msg, strlen(msg) - 1) == -1){
+        if (pipe(pipe2fd) == -1) {
+        if (pipe(pipe1fd) == -1) {
+        if (pid == 0) {
+        if ((n = read(readfd, msg, 100)) < 0) {
+        if ((n = read(readfd, msg, 100)) < 0) {
+"Hello"
+        fgets(msg, 100, stdin);
+        fgets(msg, 100, stdin);
+                exit(0);
+                exit(0);
+                exit(0);
+        else {
+                close(pipe2fd[1]); 
+                close(pipe2fd[0]);     
+                close(pipe1fd[1]);    
+                close(pipe1fd[0]); 
+                client(pipe1fd[0], pipe2fd[1]);
+        char msg[100];
+        char msg[100];
+        char eof = EOF;
+}
+}
+}
+{
+{
+{
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+                
+   
+ 
+ 
+
+ 
+
+
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                list.py                        pks.c                      server2.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      lol.c                          prakash                    server.c
+a                              client.c                              heap1.cpp              lol.cpp                        prakash1                   SIGALRM.c
+aaa.c                          clientudp.c                           heap.cpp               lundle2.asm                    prime.cpp                  sink-examp.txt
+aaa.tcl                        cn.c                                  hello.txt              lundle2.txt                    pro1.asm                   snr.cpp
+aaa.txt                        code                                  histogram.png          MF.py                          pro2.asm                   square.cpp
+aa.cpp                         CoIDE-V2Beta-20170510.exe             i                      MFtrimf.py                     PROGRAMS                   sr.c
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           import numpy as np.py  mipsassemblytutorial.pdf       projects                   star.tcl
+aayu.c                         colab1.1                              in                     ML_Lab.docx                    Public                     SVM.png
+aayuc.c                        complex.cpp                           inh.cpp                Music                          PycharmProjects            svm.py
+aayuudp.c                      Composition.py                        inhe.cpp               mwf_config                     q1.cpp                     tanuj1.s
+aayuudpc.c                     conv.cpp                              IRIS.csv               nam_1.14_amd64.deb             q1lab8.cpp                 tcp_concurrent_zombie.c
+abcd.asm                       crc.c                                 kmeans.py              nam_1.14_amd64.zip             q2lab8.cpp                 Templates
+abc.txt                        crc.cpp                               kmeans.R               nam_1.14_amd64.zip.1           q4.cpp                     test.c
+alarm_read.c                   crcques1.cpp                          knn1.py                namtrace.nam                   q6.cpp                     test.cpp
+android                        cross.py                              knn.py                 navcn                          qsn1.txt                   test.html
+Ankit.r                        dat.cpp                               KNN.R                  Networks_Pipes_assignment.pdf  qtspim_9.1.19_linux64.deb  tsp1.cpp
+a.out                          date.cpp                              k.tcl                  new.c                          quad.txt                   tsp.cpp
+apriori_result.txt             depthfirst.cpp                        kumar12111.c           New folder                     ques1.c                    tt.cpp
+ARK                            Desktop                               kumar1211.c            newton_backward.cpp            ques1.cpp                  tttt.cpp
+arprarp.c                      distancevector.cpp                    kumar121.c             newton.cpp                     questions                  udp_client.c
+avl.cpp                        Documents                             kumar12.c              ns-allinone-2.35               R                          Untitled1.ipynb
+avlpkk.cpp                     Downloads                             kumar1.c               ns-allinone-2.35.tar.gz        rarp1.cpp                  Untitled 1.odt
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar2.c               num.c                          rarp.cpp                   Untitled Document
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar3.c               nym.c                          rec.c                      Untitled Document 1
+b                              dv.c                                  kumar4.c               nymika1                        reciever.c                 Untitled Document 2
+barchart.png                   dv.cpp                                kumar5.c               nymika.c                       repos                      Untitled Document 3
+bbb.tcl                        fib.asm                               kumar.c                oishika.cpp                    result.dat                 Untitled Folder
+b.c                            fibs.asm                              kumare.c               OOPS LAB EXAM                  ring.tcl                   Untitled Folder 2
+b.cpp                          first.R                               lab91.cpp              OOPS LAB EXAM.zip              root-p                     Untitled Folder 3
+bi.cpp                         FirstRepo                             lab9.cpp               OpFuzzy.py                     rps                        Untitled Folder 4
+bin                            friend_class.cpp                      lab9q1.cpp             out                            rps.cpp                    Untitled Folder 5
+bit_stuffing.c                 fuzzyOp.py                            lab9q2.cpp             out.nam                        s                          Untitled.ipynb
+boxplot.png                    FuzzyOp.py                            lab.cpp                out.tr                         s1.asm                     verifying_received_response.c
+c                              Fuzzy.py                              labPalindrome.txt      p1b.c                          s.asm                      verifying_received_response_ser.c
+c1                             fuzzy_set.py                          leftrec1.c             p1.l                           selrej.c                   Videos
+c2                             FuzzySet.py                           lex1.txt               p4.tcl                         send.c
+ccc.tcl                        GenMF.py                              lex.yy.c               Pictures                       sender.c
+client1.c                      GENMF.py                              link.cpp               pipe.c                         server1.c
+
+
+nitdpc16@nitdpc16-desktop:~$ mkdir prakash2.txt
+
+
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                list.py                        pks.c                      server1.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      lol.c                          prakash                    server2.c
+a                              client.c                              heap1.cpp              lol.cpp                        prakash1                   server.c
+aaa.c                          clientudp.c                           heap.cpp               lundle2.asm                    prakash2.txt               SIGALRM.c
+aaa.tcl                        cn.c                                  hello.txt              lundle2.txt                    prime.cpp                  sink-examp.txt
+aaa.txt                        code                                  histogram.png          MF.py                          pro1.asm                   snr.cpp
+aa.cpp                         CoIDE-V2Beta-20170510.exe             i                      MFtrimf.py                     pro2.asm                   square.cpp
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           import numpy as np.py  mipsassemblytutorial.pdf       PROGRAMS                   sr.c
+aayu.c                         colab1.1                              in                     ML_Lab.docx                    projects                   star.tcl
+aayuc.c                        complex.cpp                           inh.cpp                Music                          Public                     SVM.png
+aayuudp.c                      Composition.py                        inhe.cpp               mwf_config                     PycharmProjects            svm.py
+aayuudpc.c                     conv.cpp                              IRIS.csv               nam_1.14_amd64.deb             q1.cpp                     tanuj1.s
+abcd.asm                       crc.c                                 kmeans.py              nam_1.14_amd64.zip             q1lab8.cpp                 tcp_concurrent_zombie.c
+abc.txt                        crc.cpp                               kmeans.R               nam_1.14_amd64.zip.1           q2lab8.cpp                 Templates
+alarm_read.c                   crcques1.cpp                          knn1.py                namtrace.nam                   q4.cpp                     test.c
+android                        cross.py                              knn.py                 navcn                          q6.cpp                     test.cpp
+Ankit.r                        dat.cpp                               KNN.R                  Networks_Pipes_assignment.pdf  qsn1.txt                   test.html
+a.out                          date.cpp                              k.tcl                  new.c                          qtspim_9.1.19_linux64.deb  tsp1.cpp
+apriori_result.txt             depthfirst.cpp                        kumar12111.c           New folder                     quad.txt                   tsp.cpp
+ARK                            Desktop                               kumar1211.c            newton_backward.cpp            ques1.c                    tt.cpp
+arprarp.c                      distancevector.cpp                    kumar121.c             newton.cpp                     ques1.cpp                  tttt.cpp
+avl.cpp                        Documents                             kumar12.c              ns-allinone-2.35               questions                  udp_client.c
+avlpkk.cpp                     Downloads                             kumar1.c               ns-allinone-2.35.tar.gz        R                          Untitled1.ipynb
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar2.c               num.c                          rarp1.cpp                  Untitled 1.odt
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar3.c               nym.c                          rarp.cpp                   Untitled Document
+b                              dv.c                                  kumar4.c               nymika1                        rec.c                      Untitled Document 1
+barchart.png                   dv.cpp                                kumar5.c               nymika.c                       reciever.c                 Untitled Document 2
+bbb.tcl                        fib.asm                               kumar.c                oishika.cpp                    repos                      Untitled Document 3
+b.c                            fibs.asm                              kumare.c               OOPS LAB EXAM                  result.dat                 Untitled Folder
+b.cpp                          first.R                               lab91.cpp              OOPS LAB EXAM.zip              ring.tcl                   Untitled Folder 2
+bi.cpp                         FirstRepo                             lab9.cpp               OpFuzzy.py                     root-p                     Untitled Folder 3
+bin                            friend_class.cpp                      lab9q1.cpp             out                            rps                        Untitled Folder 4
+bit_stuffing.c                 fuzzyOp.py                            lab9q2.cpp             out.nam                        rps.cpp                    Untitled Folder 5
+boxplot.png                    FuzzyOp.py                            lab.cpp                out.tr                         s                          Untitled.ipynb
+c                              Fuzzy.py                              labPalindrome.txt      p1b.c                          s1.asm                     verifying_received_response.c
+c1                             fuzzy_set.py                          leftrec1.c             p1.l                           s.asm                      verifying_received_response_ser.c
+c2                             FuzzySet.py                           lex1.txt               p4.tcl                         selrej.c                   Videos
+ccc.tcl                        GenMF.py                              lex.yy.c               Pictures                       send.c
+client1.c                      GENMF.py                              link.cpp               pipe.c                         sender.c
+
+
+nitdpc16@nitdpc16-desktop:~$ cp prakash1 prakash2.txt
+
+
+nitdpc16@nitdpc16-desktop:~$ mv prakash1 prakash2.txt
+
+
+nitdpc16@nitdpc16-desktop:~$ cd prakash2.txt
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ ls
+prakash1
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ wc prakash1
+  71  173 1746 prakash1
+  
+  
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ wc -c prakash1
+1746 prakash1
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ wc -l prakash1
+71 prakash1
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ wc -w prakash1
+173 prakash1
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ cd ..
+
+
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                list.py                        pks.c                      server1.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      lol.c                          prakash                    server2.c
+a                              client.c                              heap1.cpp              lol.cpp                        prakash1                   server.c
+aaa.c                          clientudp.c                           heap.cpp               lundle2.asm                    prakash2.txt               SIGALRM.c
+aaa.tcl                        cn.c                                  hello.txt              lundle2.txt                    prime.cpp                  sink-examp.txt
+aaa.txt                        code                                  histogram.png          MF.py                          pro1.asm                   snr.cpp
+aa.cpp                         CoIDE-V2Beta-20170510.exe             i                      MFtrimf.py                     pro2.asm                   square.cpp
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           import numpy as np.py  mipsassemblytutorial.pdf       PROGRAMS                   sr.c
+aayu.c                         colab1.1                              in                     ML_Lab.docx                    projects                   star.tcl
+aayuc.c                        complex.cpp                           inh.cpp                Music                          Public                     SVM.png
+aayuudp.c                      Composition.py                        inhe.cpp               mwf_config                     PycharmProjects            svm.py
+aayuudpc.c                     conv.cpp                              IRIS.csv               nam_1.14_amd64.deb             q1.cpp                     tanuj1.s
+abcd.asm                       crc.c                                 kmeans.py              nam_1.14_amd64.zip             q1lab8.cpp                 tcp_concurrent_zombie.c
+abc.txt                        crc.cpp                               kmeans.R               nam_1.14_amd64.zip.1           q2lab8.cpp                 Templates
+alarm_read.c                   crcques1.cpp                          knn1.py                namtrace.nam                   q4.cpp                     test.c
+android                        cross.py                              knn.py                 navcn                          q6.cpp                     test.cpp
+Ankit.r                        dat.cpp                               KNN.R                  Networks_Pipes_assignment.pdf  qsn1.txt                   test.html
+a.out                          date.cpp                              k.tcl                  new.c                          qtspim_9.1.19_linux64.deb  tsp1.cpp
+apriori_result.txt             depthfirst.cpp                        kumar12111.c           New folder                     quad.txt                   tsp.cpp
+ARK                            Desktop                               kumar1211.c            newton_backward.cpp            ques1.c                    tt.cpp
+arprarp.c                      distancevector.cpp                    kumar121.c             newton.cpp                     ques1.cpp                  tttt.cpp
+avl.cpp                        Documents                             kumar12.c              ns-allinone-2.35               questions                  udp_client.c
+avlpkk.cpp                     Downloads                             kumar1.c               ns-allinone-2.35.tar.gz        R                          Untitled1.ipynb
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar2.c               num.c                          rarp1.cpp                  Untitled 1.odt
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar3.c               nym.c                          rarp.cpp                   Untitled Document
+b                              dv.c                                  kumar4.c               nymika1                        rec.c                      Untitled Document 1
+barchart.png                   dv.cpp                                kumar5.c               nymika.c                       reciever.c                 Untitled Document 2
+bbb.tcl                        fib.asm                               kumar.c                oishika.cpp                    repos                      Untitled Document 3
+b.c                            fibs.asm                              kumare.c               OOPS LAB EXAM                  result.dat                 Untitled Folder
+b.cpp                          first.R                               lab91.cpp              OOPS LAB EXAM.zip              ring.tcl                   Untitled Folder 2
+bi.cpp                         FirstRepo                             lab9.cpp               OpFuzzy.py                     root-p                     Untitled Folder 3
+bin                            friend_class.cpp                      lab9q1.cpp             out                            rps                        Untitled Folder 4
+bit_stuffing.c                 fuzzyOp.py                            lab9q2.cpp             out.nam                        rps.cpp                    Untitled Folder 5
+boxplot.png                    FuzzyOp.py                            lab.cpp                out.tr                         s                          Untitled.ipynb
+c                              Fuzzy.py                              labPalindrome.txt      p1b.c                          s1.asm                     verifying_received_response.c
+c1                             fuzzy_set.py                          leftrec1.c             p1.l                           s.asm                      verifying_received_response_ser.c
+c2                             FuzzySet.py                           lex1.txt               p4.tcl                         selrej.c                   Videos
+ccc.tcl                        GenMF.py                              lex.yy.c               Pictures                       send.c
+client1.c                      GENMF.py                              link.cpp               pipe.c                         sender.c
+
+
+nitdpc16@nitdpc16-desktop:~$ mkdir helo.cpp
+
+
+nitdpc16@nitdpc16-desktop:~$ ls
+0.docx                         client2.c                             gnb.cpp                link.cpp                       pipe.c                     sender.c
+141100017_LP Lab End Sem_Exam  client3.c                             h                      list.py                        pks.c                      server1.c
+a                              client.c                              heap1.cpp              lol.c                          prakash                    server2.c
+aaa.c                          clientudp.c                           heap.cpp               lol.cpp                        prakash1                   server.c
+aaa.tcl                        cn.c                                  hello.txt              lundle2.asm                    prakash2.txt               SIGALRM.c
+aaa.txt                        code                                  helo.cpp               lundle2.txt                    prime.cpp                  sink-examp.txt
+aa.cpp                         CoIDE-V2Beta-20170510.exe             histogram.png          MF.py                          pro1.asm                   snr.cpp
+aayu2.c                        CoIDE-V2Beta-20170510.exe.0           i                      MFtrimf.py                     pro2.asm                   square.cpp
+aayu.c                         colab1.1                              import numpy as np.py  mipsassemblytutorial.pdf       PROGRAMS                   sr.c
+aayuc.c                        complex.cpp                           in                     ML_Lab.docx                    projects                   star.tcl
+aayuudp.c                      Composition.py                        inh.cpp                Music                          Public                     SVM.png
+aayuudpc.c                     conv.cpp                              inhe.cpp               mwf_config                     PycharmProjects            svm.py
+abcd.asm                       crc.c                                 IRIS.csv               nam_1.14_amd64.deb             q1.cpp                     tanuj1.s
+abc.txt                        crc.cpp                               kmeans.py              nam_1.14_amd64.zip             q1lab8.cpp                 tcp_concurrent_zombie.c
+alarm_read.c                   crcques1.cpp                          kmeans.R               nam_1.14_amd64.zip.1           q2lab8.cpp                 Templates
+android                        cross.py                              knn1.py                namtrace.nam                   q4.cpp                     test.c
+Ankit.r                        dat.cpp                               knn.py                 navcn                          q6.cpp                     test.cpp
+a.out                          date.cpp                              KNN.R                  Networks_Pipes_assignment.pdf  qsn1.txt                   test.html
+apriori_result.txt             depthfirst.cpp                        k.tcl                  new.c                          qtspim_9.1.19_linux64.deb  tsp1.cpp
+ARK                            Desktop                               kumar12111.c           New folder                     quad.txt                   tsp.cpp
+arprarp.c                      distancevector.cpp                    kumar1211.c            newton_backward.cpp            ques1.c                    tt.cpp
+avl.cpp                        Documents                             kumar121.c             newton.cpp                     ques1.cpp                  tttt.cpp
+avlpkk.cpp                     Downloads                             kumar12.c              ns-allinone-2.35               questions                  udp_client.c
+avltree1.cpp                   DS500-BN-00019-r5p0-27rel1.tgz        kumar1.c               ns-allinone-2.35.tar.gz        R                          Untitled1.ipynb
+avltree.cpp                    DS500-BN-00019-r5p0-27rel1.tgz.aria2  kumar2.c               num.c                          rarp1.cpp                  Untitled 1.odt
+b                              dv.c                                  kumar3.c               nym.c                          rarp.cpp                   Untitled Document
+barchart.png                   dv.cpp                                kumar4.c               nymika1                        rec.c                      Untitled Document 1
+bbb.tcl                        fib.asm                               kumar5.c               nymika.c                       reciever.c                 Untitled Document 2
+b.c                            fibs.asm                              kumar.c                oishika.cpp                    repos                      Untitled Document 3
+b.cpp                          first.R                               kumare.c               OOPS LAB EXAM                  result.dat                 Untitled Folder
+bi.cpp                         FirstRepo                             lab91.cpp              OOPS LAB EXAM.zip              ring.tcl                   Untitled Folder 2
+bin                            friend_class.cpp                      lab9.cpp               OpFuzzy.py                     root-p                     Untitled Folder 3
+bit_stuffing.c                 fuzzyOp.py                            lab9q1.cpp             out                            rps                        Untitled Folder 4
+boxplot.png                    FuzzyOp.py                            lab9q2.cpp             out.nam                        rps.cpp                    Untitled Folder 5
+c                              Fuzzy.py                              lab.cpp                out.tr                         s                          Untitled.ipynb
+c1                             fuzzy_set.py                          labPalindrome.txt      p1b.c                          s1.asm                     verifying_received_response.c
+c2                             FuzzySet.py                           leftrec1.c             p1.l                           s.asm                      verifying_received_response_ser.c
+ccc.tcl                        GenMF.py                              lex1.txt               p4.tcl                         selrej.c                   Videos
+client1.c                      GENMF.py                              lex.yy.c               Pictures                       send.c
+
+
+nitdpc16@nitdpc16-desktop:~$ cd prakash2.txt
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ ls
+prakash1
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ head prakash1 
+"Hello"
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+ 
+void client(int readfd, int writefd)
+{
+        char msg[100];
+        int n;
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ tail  prakash1 
+        else {
+                
+                close(pipe1fd[0]); 
+                close(pipe2fd[1]); 
+                server(pipe2fd[0], pipe1fd[1]);
+                wait(NULL);     
+                return 0;
+        }
+}
+
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ page prakash1
+The program 'page' is currently not installed. You can install it by typing:
+sudo apt install tcllib
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ sudo apt install tcllib
+[sudo] password for nitdpc16: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  tcllib
+0 upgraded, 1 newly installed, 0 to remove and 448 not upgraded.
+Need to get 4,011 kB of archives.
+After this operation, 18.8 MB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 tcllib all 1.17-dfsg-1 [4,011 kB]
+Fetched 4,011 kB in 7s (557 kB/s)
+Selecting previously unselected package tcllib.
+(Reading database ... 249390 files and directories currently installed.)
+Preparing to unpack .../tcllib_1.17-dfsg-1_all.deb ...
+Unpacking tcllib (1.17-dfsg-1) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 1 added doc-base file...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up tcllib (1.17-dfsg-1) ...
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ page prakash1
+/usr/bin/page: Bad argument "peg".
+	Unable to locate configuration or load plugin "peg" (ERROR for slave interp1 : "/usr/share/tcltk/tcllib1.17/page/plugins/config_peg.tcl": not in access_path)
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ sudo apt install tcllib
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+tcllib is already the newest version (1.17-dfsg-1).
+0 upgraded, 0 newly installed, 0 to remove and 448 not upgraded.
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ page prakash1
+/usr/bin/page: Bad argument "peg".
+	Unable to locate configuration or load plugin "peg" (ERROR for slave interp1 : "/usr/share/tcltk/tcllib1.17/page/plugins/config_peg.tcl": not in access_path)
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ more prakash1
+"Hello"
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+ 
+void client(int readfd, int writefd)
+{
+        char msg[100];
+        int n;
+        char eof = EOF;
+        printf("%d enter msg to be sent to server: ", getpid());
+        fgets(msg, 100, stdin);
+        if (write(writefd, msg, strlen(msg) - 1) == -1){
+                perror("error writing...");
+                exit(0);
+        }
+        if ((n = read(readfd, msg, 100)) < 0) {
+                perror("error reading...");
+                exit(0);
+        }
+        msg[n] = ' ';
+        printf("received from server: %s\n", msg);
+}
+ 
+void server(int readfd, int writefd)
+{
+        char msg[100];
+        int n;
+        if ((n = read(readfd, msg, 100)) < 0) {
+                perror("error reading...");
+        }
+        msg[n] = ' ';
+        printf("%d server received from client: %s\n", getpid(), msg);
+        printf("enter msg to be sent to client: ");
+        fgets(msg, 100, stdin);
+        write(writefd, msg, strlen(msg) - 1);
+}
+ 
+int main()
+{
+        int pipe1fd[2], pipe2fd[2];
+        int pid;
+ 
+   
+        if (pipe(pipe1fd) == -1) {
+                perror("pipe:");
+                return 0;
+        }
+        if (pipe(pipe2fd) == -1) {
+                perror("pipe:");
+                return 0;
+        }
+
+        pid = fork();
+        if (pid == 0) {
+                close(pipe1fd[1]);    
+                close(pipe2fd[0]);     
+                client(pipe1fd[0], pipe2fd[1]);
+                exit(0);
+        }
+        else {
+                
+                close(pipe1fd[0]); 
+                close(pipe2fd[1]); 
+                server(pipe2fd[0], pipe1fd[1]);
+                wait(NULL);     
+                return 0;
+        }
+}
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ more prakash1
+"Hello"
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+ 
+void client(int readfd, int writefd)
+{
+        char msg[100];
+        int n;
+        char eof = EOF;
+        printf("%d enter msg to be sent to server: ", getpid());
+        fgets(msg, 100, stdin);
+        if (write(writefd, msg, strlen(msg) - 1) == -1){
+                perror("error writing...");
+                exit(0);
+        }
+        if ((n = read(readfd, msg, 100)) < 0) {
+                perror("error reading...");
+                exit(0);
+        }
+        msg[n] = ' ';
+        printf("received from server: %s\n", msg);
+}
+ 
+void server(int readfd, int writefd)
+{
+        char msg[100];
+        int n;
+        if ((n = read(readfd, msg, 100)) < 0) {
+                perror("error reading...");
+        }
+        msg[n] = ' ';
+        printf("%d server received from client: %s\n", getpid(), msg);
+        printf("enter msg to be sent to client: ");
+        fgets(msg, 100, stdin);
+        write(writefd, msg, strlen(msg) - 1);
+}
+ 
+int main()
+{
+        int pipe1fd[2], pipe2fd[2];
+        int pid;
+ 
+   
+        if (pipe(pipe1fd) == -1) {
+                perror("pipe:");
+                return 0;
+        }
+        if (pipe(pipe2fd) == -1) {
+                perror("pipe:");
+                return 0;
+        }
+
+        pid = fork();
+        if (pid == 0) {
+                close(pipe1fd[1]);    
+                close(pipe2fd[0]);     
+                client(pipe1fd[0], pipe2fd[1]);
+                exit(0);
+        }
+        else {
+                
+                close(pipe1fd[0]); 
+                close(pipe2fd[1]); 
+                server(pipe2fd[0], pipe1fd[1]);
+                wait(NULL);     
+                return 0;
+        }
+}
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ 
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ page prakash1
+/usr/bin/page: Bad argument "peg".
+	Unable to locate configuration or load plugin "peg" (ERROR for slave interp1 : "/usr/share/tcltk/tcllib1.17/page/plugins/config_peg.tcl": not in access_path)
+	
+	
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ page prakash1
+/usr/bin/page: Bad argument "peg".
+	Unable to locate configuration or load plugin "peg" (ERROR for slave interp1 : "/usr/share/tcltk/tcllib1.17/page/plugins/config_peg.tcl": not in access_path)
+	
+	
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ page prakash1
+/usr/bin/page: Bad argument "peg".
+	Unable to locate configuration or load plugin "peg" (ERROR for slave interp1 : "/usr/share/tcltk/tcllib1.17/page/plugins/config_peg.tcl": not in access_path)
+	
+	
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ peg prakash1
+The program 'peg' is currently not installed. You can install it by typing:
+sudo apt install peg
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ sudo apt install peg
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  peg
+0 upgraded, 1 newly installed, 0 to remove and 448 not upgraded.
+Need to get 39.9 kB of archives.
+After this operation, 163 kB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 peg amd64 0.1.15-1 [39.9 kB]
+Fetched 39.9 kB in 0s (41.4 kB/s)
+Selecting previously unselected package peg.
+(Reading database ... 251173 files and directories currently installed.)
+Preparing to unpack .../peg_0.1.15-1_amd64.deb ...
+Unpacking peg (0.1.15-1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up peg (0.1.15-1) ...
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ peg prakash1
+prakash1:1: syntax error before text ""Hello""
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ page prakash1
+/usr/bin/page: Bad argument "peg".
+	Unable to locate configuration or load plugin "peg" (ERROR for slave interp1 : "/usr/share/tcltk/tcllib1.17/page/plugins/config_peg.tcl": not in access_path)
+	
+	
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ cd ..
+
+
+nitdpc16@nitdpc16-desktop:~$ tr a-z A-Z
+abc
+ABC
+dswcccccccccccccccccccccccccccccccccc
+DSWCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+^C
+
+
+nitdpc16@nitdpc16-desktop:~$ tr a-z @-Z
+aaaaaaaaaad
+@@@@@@@@@@C
+^C
+
+
+nitdpc16@nitdpc16-desktop:~$ cd prakash2.txt/
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ ls
+prakash1
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ sort prakash1 | more
+
+
+ 
+ 
+ 
+ 
+   
+                
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+{
+{
+{
+}
+}
+}
+        char eof = EOF;
+        char msg[100];
+        char msg[100];
+                client(pipe1fd[0], pipe2fd[1]);
+                close(pipe1fd[0]); 
+                close(pipe1fd[1]);    
+                close(pipe2fd[0]);     
+                close(pipe2fd[1]); 
+        else {
+                exit(0);
+                exit(0);
+                exit(0);
+        fgets(msg, 100, stdin);
+        fgets(msg, 100, stdin);
+"Hello"
+        if ((n = read(readfd, msg, 100)) < 0) {
+        if ((n = read(readfd, msg, 100)) < 0) {
+        if (pid == 0) {
+        if (pipe(pipe1fd) == -1) {
+        if (pipe(pipe2fd) == -1) {
+        if (write(writefd, msg, strlen(msg) - 1) == -1){
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+int main()
+        int n;
+        int n;
+        int pid;
+        int pipe1fd[2], pipe2fd[2];
+        msg[n] = ' ';
+        msg[n] = ' ';
+                perror("error reading...");
+                perror("error reading...");
+                perror("error writing...");
+                perror("pipe:");
+                perror("pipe:");
+        pid = fork();
+        printf("%d enter msg to be sent to server: ", getpid());
+        printf("%d server received from client: %s\n", getpid(), msg);
+        printf("enter msg to be sent to client: ");
+        printf("received from server: %s\n", msg);
+                return 0;
+                return 0;
+                return 0;
+                server(pipe2fd[0], pipe1fd[1]);
+void client(int readfd, int writefd)
+void server(int readfd, int writefd)
+                wait(NULL);     
+        write(writefd, msg, strlen(msg) - 1);
+        
+        
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ 
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ sort prakash1 | more
+
+
+ 
+ 
+ 
+ 
+   
+                
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+{
+{
+{
+}
+}
+}
+        char eof = EOF;
+        char msg[100];
+        char msg[100];
+                client(pipe1fd[0], pipe2fd[1]);
+                close(pipe1fd[0]); 
+                close(pipe1fd[1]);    
+                close(pipe2fd[0]);     
+                close(pipe2fd[1]); 
+        else {
+                exit(0);
+                exit(0);
+                exit(0);
+        fgets(msg, 100, stdin);
+        fgets(msg, 100, stdin);
+"Hello"
+        if ((n = read(readfd, msg, 100)) < 0) {
+        if ((n = read(readfd, msg, 100)) < 0) {
+        if (pid == 0) {
+        if (pipe(pipe1fd) == -1) {
+        if (pipe(pipe2fd) == -1) {
+        if (write(writefd, msg, strlen(msg) - 1) == -1){
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+int main()
+        int n;
+        int n;
+        int pid;
+        int pipe1fd[2], pipe2fd[2];
+        msg[n] = ' ';
+        msg[n] = ' ';
+                perror("error reading...");
+                perror("error reading...");
+                perror("error writing...");
+                perror("pipe:");
+                perror("pipe:");
+        pid = fork();
+        printf("%d enter msg to be sent to server: ", getpid());
+        printf("%d server received from client: %s\n", getpid(), msg);
+        printf("enter msg to be sent to client: ");
+        printf("received from server: %s\n", msg);
+                return 0;
+                return 0;
+                return 0;
+                server(pipe2fd[0], pipe1fd[1]);
+void client(int readfd, int writefd)
+void server(int readfd, int writefd)
+                wait(NULL);     
+        write(writefd, msg, strlen(msg) - 1);
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ 
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ sort prakash1 | more
+
+
+ 
+ 
+ 
+ 
+   
+                
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+{
+{
+{
+}
+}
+}
+        char eof = EOF;
+        char msg[100];
+        char msg[100];
+                client(pipe1fd[0], pipe2fd[1]);
+                close(pipe1fd[0]); 
+                close(pipe1fd[1]);    
+                close(pipe2fd[0]);     
+                close(pipe2fd[1]); 
+        else {
+                exit(0);
+                exit(0);
+                exit(0);
+        fgets(msg, 100, stdin);
+        fgets(msg, 100, stdin);
+"Hello"
+        if ((n = read(readfd, msg, 100)) < 0) {
+        if ((n = read(readfd, msg, 100)) < 0) {
+        if (pid == 0) {
+        if (pipe(pipe1fd) == -1) {
+        if (pipe(pipe2fd) == -1) {
+        if (write(writefd, msg, strlen(msg) - 1) == -1){
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+int main()
+        int n;
+        int n;
+        int pid;
+        int pipe1fd[2], pipe2fd[2];
+        msg[n] = ' ';
+        msg[n] = ' ';
+                perror("error reading...");
+                perror("error reading...");
+                perror("error writing...");
+                perror("pipe:");
+                perror("pipe:");
+        pid = fork();
+        printf("%d enter msg to be sent to server: ", getpid());
+        printf("%d server received from client: %s\n", getpid(), msg);
+        printf("enter msg to be sent to client: ");
+        printf("received from server: %s\n", msg);
+                return 0;
+                return 0;
+                return 0;
+                server(pipe2fd[0], pipe1fd[1]);
+void client(int readfd, int writefd)
+void server(int readfd, int writefd)
+                wait(NULL);     
+        write(writefd, msg, strlen(msg) - 1);
+        
+        
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ 
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ tr a-z A-Z
+prakash1
+PRAKASH1
+^C
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ ls
+prakash1
+
+
+nitdpc16@nitdpc16-desktop:~/prakash2.txt$ cat prakash1 
+"Hello"
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+ 
+void client(int readfd, int writefd)
+{
+        char msg[100];
+        int n;
+        char eof = EOF;
+        printf("%d enter msg to be sent to server: ", getpid());
+        fgets(msg, 100, stdin);
+        if (write(writefd, msg, strlen(msg) - 1) == -1){
+                perror("error writing...");
+                exit(0);
+        }
+        if ((n = read(readfd, msg, 100)) < 0) {
+                perror("error reading...");
+                exit(0);
+        }
+        msg[n] = ' ';
+        printf("received from server: %s\n", msg);
+}
+ 
+void server(int readfd, int writefd)
+{
+        char msg[100];
+        int n;
+        if ((n = read(readfd, msg, 100)) < 0) {
+                perror("error reading...");
+        }
+        msg[n] = ' ';
+        printf("%d server received from client: %s\n", getpid(), msg);
+        printf("enter msg to be sent to client: ");
+        fgets(msg, 100, stdin);
+        write(writefd, msg, strlen(msg) - 1);
+}
+ 
+int main()
+{
+        int pipe1fd[2], pipe2fd[2];
+        int pid;
+ 
+   
+        if (pipe(pipe1fd) == -1) {
+                perror("pipe:");
+                return 0;
+        }
+        if (pipe(pipe2fd) == -1) {
+                perror("pipe:");
+                return 0;
+        }
+
+        pid = fork();
+        if (pid == 0) {
+                close(pipe1fd[1]);    
+                close(pipe2fd[0]);     
+                client(pipe1fd[0], pipe2fd[1]);
+                exit(0);
+        }
+        else {
+                
+                close(pipe1fd[0]); 
+                close(pipe2fd[1]); 
+                server(pipe2fd[0], pipe1fd[1]);
+                wait(NULL);     
+                return 0;
+        }
+}
+
+
+nitdpc16@nitdpc16-desktop:~$ clear
+
